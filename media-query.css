@@ -16,7 +16,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     padding-left: 10px;
     padding-right: 10px;
-    margin-inline: auto;
+
   }
 }
 
@@ -34,6 +34,7 @@
     }
     .container {
         grid-template-columns: repeat(9, 1fr);
+        margin-inline: auto;
 
     }
     .box:nth-child(1){

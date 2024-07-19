@@ -16,28 +16,27 @@ h1 {
 }
 
 .container {
+  width: min[90%, 1200px];
+  height: auto;
+  margin-inline: auto;
   display: grid;
   grid-template-columns: 1fr;
-  margin-top: 20px;
-  gap: 15px;
-  /* width: 360px; */
-  justify-content: center;
-  padding-left: 5;
+  gap: 10px;
 }
 
 .box {
-  display: flex;
+  display: grid;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  place-items: center;
   gap: 10px;
-  height: 100px;
+  height: 200px;
   border-radius: 15px;
 }
 
 .box:nth-child(1) {
   background-color: #60843c;
-
 }
 .box:nth-child(2) {
   background-color: #533146;
